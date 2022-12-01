@@ -1,0 +1,1 @@
+# context.load_cert_chain('/home/murat/ssl2/certificate.pem', '/home/murat/ssl2/key.pem'
