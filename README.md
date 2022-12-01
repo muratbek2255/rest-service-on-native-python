@@ -53,8 +53,7 @@ Keyfile=your_keyfile_for_ssl //is for tls
 
 #### Result
 HTTP:
-    ![img.png](media/Beeline HTTP.png)
-
+    ![img.png](media/media_http.png)
     (
     I'm check with postman:
     POST-methods
