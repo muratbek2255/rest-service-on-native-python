@@ -64,10 +64,10 @@ HTTP:
     )
 
 TCP:
-    ![img.png](media/img2.png)
+    ![img_1.png](media/img_1.png)
     I'm create tcp/tcp_client.py then input data and send to server
 
 
 TSL: 
-    ![img.png](media/img3.png)
+    ![img_2.png](media/img_2.png)
     The same as in tsp, but you need to create a certfile and keyfile for ssl
