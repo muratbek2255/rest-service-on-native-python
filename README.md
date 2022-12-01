@@ -54,6 +54,7 @@ Keyfile=your_keyfile_for_ssl //is for tls
 #### Result
 HTTP:
     ![](media/Beeline HTTP.png)
+
     (
     I'm check with postman:
     POST-methods
@@ -65,9 +66,11 @@ HTTP:
 
 TCP:
     ![img_1.png](media/img.png)
+
     I'm create tcp/tcp_client.py then input data and send to server
 
 
 TSL: 
     ![img_2.png](media/img_1.png)
+
     The same as in tsp, but you need to create a certfile and keyfile for ssl
