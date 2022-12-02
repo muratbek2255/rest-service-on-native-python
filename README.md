@@ -44,12 +44,18 @@ Keyfile=your_keyfile_for_ssl //is for tls
     HTTP:
         1.python3 https/http_server.py
         2.Open Dockerfile and change tlc / . and CMD on https / . and CMD['python3', '"./http_server.py']
+	3.docker build -t <app/name> .
+	4.docker run -p 8888:8888 -it <app/name>
     TCP:
         1.python3 tcp/tcp_server.py(we run server), then run client(python3 tcp/tcp_client.py) 
         2.Open Dockerfile and change tcp / . and CMD on https / . and CMD['python3', './tcp_server.py', './tcp_client.py']
+	3.docker build -t <app/name> .
+	4.docker run -p 8888:8888 -it <app/name>
     TCL:
         1.python3 tls/tls_server.py(we run server), then run client(python3 tls/tls_client.py) 
         2.Open Dockerfile and change tcp / . and CMD on https / . and CMD['python3', './tcp_server.py', './tcp_client.py']
+	3.docker build -t <app/name> .
+	4.docker run -p 8888:8888 -it <app/name>
 
 #### Result
 HTTP:
